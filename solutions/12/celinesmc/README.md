@@ -120,7 +120,7 @@ Se comprobaron los siguientes casos.
 - Ejecución real del lote en GPU y de una pregunta propia sin red.
 - Rechazo de una pregunta vacía y de `--top-k 0` sin crear el archivo de salida.
 - Cinco pruebas Python. Verifican la división en fragmentos, el rechazo de preguntas y documentos inválidos, la búsqueda de datos esperados y la escritura completa del JSON.
-- Tres pruebas JavaScript en `tests/rag-documents.test.mjs`. Verifican que cada fragmento procede de la colección y se envió al modelo, que hay preguntas de los tres tipos y que la web rechaza resultados alterados.
+- Tres pruebas JavaScript en `tests/rag-documents-celinesmc.test.mjs`. Verifican que cada fragmento procede de la colección y se envió al modelo, que hay preguntas de los tres tipos y que la web rechaza resultados alterados.
 - Interfaz compilada en el navegador integrado de Claude Code. Se recorrieron las cinco preguntas y se compararon las respuestas y los fragmentos mostrados con el JSON exportado.
 - Fallo de carga al retirar temporalmente `answers.json` de la compilación. La web mostró el error y se recuperó con el botón de recarga.
 - Pantalla estrecha de 375 × 812 sin desbordamiento horizontal.
