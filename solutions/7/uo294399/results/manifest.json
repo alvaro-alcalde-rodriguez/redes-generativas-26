@@ -1,0 +1,166 @@
+{
+  "model": "stabilityai/sd-turbo",
+  "revision": "0096a99066b73650354282eeef18114cf0dab75c",
+  "resolution": {
+    "width": 512,
+    "height": 512
+  },
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "modelLoadSeconds": 0.775,
+  "machine": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel(R) Core(TM) i7-14650HX",
+    "logicalCpuCount": 24,
+    "pythonVersion": "3.12.10",
+    "torchVersion": "2.8.0+cpu",
+    "device": "cpu",
+    "deviceName": "Intel(R) Core(TM) i7-14650HX"
+  },
+  "prompts": [
+    {
+      "id": "taza",
+      "title": "Una taza roja",
+      "description": "Una taza roja de cerámica sobre una mesa de madera, con luz suave de mañana.",
+      "modelPrompt": "A single red ceramic mug on a wooden table, soft morning window light, simple composition, realistic photograph"
+    },
+    {
+      "id": "escena",
+      "title": "Perro, bicicleta y globo",
+      "description": "Un perro marrón junto a una bicicleta azul y un globo rojo atado al manillar, en un parque.",
+      "modelPrompt": "A small brown dog beside one blue bicycle with one red balloon tied to its handlebar in a green city park, all three subjects clearly visible, sunny afternoon, realistic photograph"
+    }
+  ],
+  "generations": [
+    {
+      "promptId": "taza",
+      "prompt": "A single red ceramic mug on a wooden table, soft morning window light, simple composition, realistic photograph",
+      "seed": 17,
+      "steps": 1,
+      "guidanceScale": 0.0,
+      "width": 512,
+      "height": 512,
+      "image": "taza-semilla-17-pasos-1.png"
+    },
+    {
+      "promptId": "taza",
+      "prompt": "A single red ceramic mug on a wooden table, soft morning window light, simple composition, realistic photograph",
+      "seed": 17,
+      "steps": 4,
+      "guidanceScale": 0.0,
+      "width": 512,
+      "height": 512,
+      "image": "taza-semilla-17-pasos-4.png"
+    },
+    {
+      "promptId": "taza",
+      "prompt": "A single red ceramic mug on a wooden table, soft morning window light, simple composition, realistic photograph",
+      "seed": 41,
+      "steps": 1,
+      "guidanceScale": 0.0,
+      "width": 512,
+      "height": 512,
+      "image": "taza-semilla-41-pasos-1.png"
+    },
+    {
+      "promptId": "taza",
+      "prompt": "A single red ceramic mug on a wooden table, soft morning window light, simple composition, realistic photograph",
+      "seed": 41,
+      "steps": 4,
+      "guidanceScale": 0.0,
+      "width": 512,
+      "height": 512,
+      "image": "taza-semilla-41-pasos-4.png"
+    },
+    {
+      "promptId": "escena",
+      "prompt": "A small brown dog beside one blue bicycle with one red balloon tied to its handlebar in a green city park, all three subjects clearly visible, sunny afternoon, realistic photograph",
+      "seed": 17,
+      "steps": 1,
+      "guidanceScale": 0.0,
+      "width": 512,
+      "height": 512,
+      "image": "escena-semilla-17-pasos-1.png"
+    },
+    {
+      "promptId": "escena",
+      "prompt": "A small brown dog beside one blue bicycle with one red balloon tied to its handlebar in a green city park, all three subjects clearly visible, sunny afternoon, realistic photograph",
+      "seed": 17,
+      "steps": 4,
+      "guidanceScale": 0.0,
+      "width": 512,
+      "height": 512,
+      "image": "escena-semilla-17-pasos-4.png"
+    },
+    {
+      "promptId": "escena",
+      "prompt": "A small brown dog beside one blue bicycle with one red balloon tied to its handlebar in a green city park, all three subjects clearly visible, sunny afternoon, realistic photograph",
+      "seed": 41,
+      "steps": 1,
+      "guidanceScale": 0.0,
+      "width": 512,
+      "height": 512,
+      "image": "escena-semilla-41-pasos-1.png"
+    },
+    {
+      "promptId": "escena",
+      "prompt": "A small brown dog beside one blue bicycle with one red balloon tied to its handlebar in a green city park, all three subjects clearly visible, sunny afternoon, realistic photograph",
+      "seed": 41,
+      "steps": 4,
+      "guidanceScale": 0.0,
+      "width": 512,
+      "height": 512,
+      "image": "escena-semilla-41-pasos-4.png"
+    }
+  ],
+  "timingsSeconds": [
+    {
+      "promptId": "taza",
+      "seed": 17,
+      "steps": 1,
+      "seconds": 7.47
+    },
+    {
+      "promptId": "taza",
+      "seed": 17,
+      "steps": 4,
+      "seconds": 12.704
+    },
+    {
+      "promptId": "taza",
+      "seed": 41,
+      "steps": 1,
+      "seconds": 6.603
+    },
+    {
+      "promptId": "taza",
+      "seed": 41,
+      "steps": 4,
+      "seconds": 13.49
+    },
+    {
+      "promptId": "escena",
+      "seed": 17,
+      "steps": 1,
+      "seconds": 7.09
+    },
+    {
+      "promptId": "escena",
+      "seed": 17,
+      "steps": 4,
+      "seconds": 13.183
+    },
+    {
+      "promptId": "escena",
+      "seed": 41,
+      "steps": 1,
+      "seconds": 7.235
+    },
+    {
+      "promptId": "escena",
+      "seed": 41,
+      "steps": 4,
+      "seconds": 13.249
+    }
+  ]
+}
